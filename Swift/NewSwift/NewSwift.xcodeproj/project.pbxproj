@@ -11,6 +11,19 @@
 		FE74770F260AE87800C9FDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE74770E260AE87800C9FDE4 /* ContentView.swift */; };
 		FE747711260AE87800C9FDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE747710260AE87800C9FDE4 /* Assets.xcassets */; };
 		FE747714260AE87800C9FDE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE747713260AE87800C9FDE4 /* Preview Assets.xcassets */; };
+		FE74772C260AE8DD00C9FDE4 /* DateFormatter+TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE74771D260AE8DD00C9FDE4 /* DateFormatter+TimeFormatter.swift */; };
+		FE74772D260AE8DD00C9FDE4 /* LESLIE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FE74771E260AE8DD00C9FDE4 /* LESLIE.TTF */; };
+		FE74772E260AE8DD00C9FDE4 /* MusicTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747720260AE8DD00C9FDE4 /* MusicTools.swift */; };
+		FE74772F260AE8DD00C9FDE4 /* AudioTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747721260AE8DD00C9FDE4 /* AudioTool.swift */; };
+		FE747730260AE8DD00C9FDE4 /* LHKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747722260AE8DD00C9FDE4 /* LHKit.swift */; };
+		FE747731260AE8DD00C9FDE4 /* Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747723260AE8DD00C9FDE4 /* Tomato.swift */; };
+		FE747732260AE8DD00C9FDE4 /* SHYSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747724260AE8DD00C9FDE4 /* SHYSwiftUI.swift */; };
+		FE747733260AE8DD00C9FDE4 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747725260AE8DD00C9FDE4 /* IAPManager.swift */; };
+		FE747734260AE8DD00C9FDE4 /* PayReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747727260AE8DD00C9FDE4 /* PayReceiptValidator.swift */; };
+		FE747735260AE8DD00C9FDE4 /* SHYSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747728260AE8DD00C9FDE4 /* SHYSound.swift */; };
+		FE747736260AE8DD00C9FDE4 /* SHYUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE747729260AE8DD00C9FDE4 /* SHYUIKit.swift */; };
+		FE747737260AE8DD00C9FDE4 /* SHYPulic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE74772A260AE8DD00C9FDE4 /* SHYPulic.swift */; };
+		FE747738260AE8DD00C9FDE4 /* Color+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE74772B260AE8DD00C9FDE4 /* Color+Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,19 @@
 		FE747710260AE87800C9FDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE747713260AE87800C9FDE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE747715260AE87800C9FDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE74771D260AE8DD00C9FDE4 /* DateFormatter+TimeFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+TimeFormatter.swift"; sourceTree = "<group>"; };
+		FE74771E260AE8DD00C9FDE4 /* LESLIE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = LESLIE.TTF; sourceTree = "<group>"; };
+		FE747720260AE8DD00C9FDE4 /* MusicTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTools.swift; sourceTree = "<group>"; };
+		FE747721260AE8DD00C9FDE4 /* AudioTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTool.swift; sourceTree = "<group>"; };
+		FE747722260AE8DD00C9FDE4 /* LHKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHKit.swift; sourceTree = "<group>"; };
+		FE747723260AE8DD00C9FDE4 /* Tomato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tomato.swift; sourceTree = "<group>"; };
+		FE747724260AE8DD00C9FDE4 /* SHYSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHYSwiftUI.swift; sourceTree = "<group>"; };
+		FE747725260AE8DD00C9FDE4 /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		FE747727260AE8DD00C9FDE4 /* PayReceiptValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayReceiptValidator.swift; sourceTree = "<group>"; };
+		FE747728260AE8DD00C9FDE4 /* SHYSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHYSound.swift; sourceTree = "<group>"; };
+		FE747729260AE8DD00C9FDE4 /* SHYUIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHYUIKit.swift; sourceTree = "<group>"; };
+		FE74772A260AE8DD00C9FDE4 /* SHYPulic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHYPulic.swift; sourceTree = "<group>"; };
+		FE74772B260AE8DD00C9FDE4 /* Color+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Colors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +78,7 @@
 		FE74770B260AE87800C9FDE4 /* NewSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FE74771C260AE8DD00C9FDE4 /* Third */,
 				FE74770C260AE87800C9FDE4 /* NewSwiftApp.swift */,
 				FE74770E260AE87800C9FDE4 /* ContentView.swift */,
 				FE747710260AE87800C9FDE4 /* Assets.xcassets */,
@@ -67,6 +94,42 @@
 				FE747713260AE87800C9FDE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE74771C260AE8DD00C9FDE4 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				FE74771D260AE8DD00C9FDE4 /* DateFormatter+TimeFormatter.swift */,
+				FE74771E260AE8DD00C9FDE4 /* LESLIE.TTF */,
+				FE74771F260AE8DD00C9FDE4 /* Tools */,
+				FE747724260AE8DD00C9FDE4 /* SHYSwiftUI.swift */,
+				FE747725260AE8DD00C9FDE4 /* IAPManager.swift */,
+				FE747726260AE8DD00C9FDE4 /* IAP */,
+				FE747728260AE8DD00C9FDE4 /* SHYSound.swift */,
+				FE747729260AE8DD00C9FDE4 /* SHYUIKit.swift */,
+				FE74772A260AE8DD00C9FDE4 /* SHYPulic.swift */,
+				FE74772B260AE8DD00C9FDE4 /* Color+Colors.swift */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		FE74771F260AE8DD00C9FDE4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FE747720260AE8DD00C9FDE4 /* MusicTools.swift */,
+				FE747721260AE8DD00C9FDE4 /* AudioTool.swift */,
+				FE747722260AE8DD00C9FDE4 /* LHKit.swift */,
+				FE747723260AE8DD00C9FDE4 /* Tomato.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FE747726260AE8DD00C9FDE4 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				FE747727260AE8DD00C9FDE4 /* PayReceiptValidator.swift */,
+			);
+			path = IAP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE74772D260AE8DD00C9FDE4 /* LESLIE.TTF in Resources */,
 				FE747714260AE87800C9FDE4 /* Preview Assets.xcassets in Resources */,
 				FE747711260AE87800C9FDE4 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +202,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE747737260AE8DD00C9FDE4 /* SHYPulic.swift in Sources */,
+				FE747733260AE8DD00C9FDE4 /* IAPManager.swift in Sources */,
+				FE747730260AE8DD00C9FDE4 /* LHKit.swift in Sources */,
+				FE747735260AE8DD00C9FDE4 /* SHYSound.swift in Sources */,
+				FE747736260AE8DD00C9FDE4 /* SHYUIKit.swift in Sources */,
+				FE747734260AE8DD00C9FDE4 /* PayReceiptValidator.swift in Sources */,
 				FE74770F260AE87800C9FDE4 /* ContentView.swift in Sources */,
+				FE747732260AE8DD00C9FDE4 /* SHYSwiftUI.swift in Sources */,
+				FE74772E260AE8DD00C9FDE4 /* MusicTools.swift in Sources */,
+				FE747738260AE8DD00C9FDE4 /* Color+Colors.swift in Sources */,
 				FE74770D260AE87800C9FDE4 /* NewSwiftApp.swift in Sources */,
+				FE747731260AE8DD00C9FDE4 /* Tomato.swift in Sources */,
+				FE74772C260AE8DD00C9FDE4 /* DateFormatter+TimeFormatter.swift in Sources */,
+				FE74772F260AE8DD00C9FDE4 /* AudioTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
