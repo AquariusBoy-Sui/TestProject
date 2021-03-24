@@ -1,0 +1,61 @@
+//
+//  PrefixHeader.pch
+//  CatPregnent2
+//
+//  Created by Binky Lee on 2019/11/5.
+//  Copyright © 2019 Binky Lee. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+
+#import "EXTScope.h"
+#import "Config.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define  kCachesPath   [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+
+#define WeakSelf(weakSelf)  __weak __typeof(self) weakSelf = self;
+#define NAVH (MAX(Device_Width, Device_Height)  == 812 ? 88 : 64)
+#define TABBARH 49
+#define Device_Width  [[UIScreen mainScreen] bounds].size.width//获取屏幕宽高
+#define Device_Height [[UIScreen mainScreen] bounds].size.height
+
+// 屏幕宽高
+#define SCREEN_WIDTH        [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT       [UIScreen mainScreen].bounds.size.height
+
+// 适配比例
+#define ADAPTATIONRATIO     SCREEN_WIDTH / 750.0f
+// 颜色
+#define GKColorRGBA(r, g, b, a) [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a]
+#define GKColorRGB(r, g, b)     GKColorRGBA(r, g, b, 1.0)
+#define GKColorGray(v)          GKColorRGB(v, v, v)
+
+// 导航栏高度与tabbar高度
+#define NAVBAR_HEIGHT       (IS_iPhoneX ? 88.0f : 64.0f)
+#define TABBAR_HEIGHT       (IS_iPhoneX ? 83.0f : 49.0f)
+
+// 状态栏高度
+#define STATUSBAR_HEIGHT    (IS_iPhoneX ? 44.0f : 20.0f)
+
+// 判断是否是iPhone X系列
+#define IS_iPhoneX      ([UIScreen instancesRespondToSelector:@selector(currentMode)] ?\
+(\
+CGSizeEqualToSize(CGSizeMake(375, 812),[UIScreen mainScreen].bounds.size)\
+||\
+CGSizeEqualToSize(CGSizeMake(812, 375),[UIScreen mainScreen].bounds.size)\
+||\
+CGSizeEqualToSize(CGSizeMake(414, 896),[UIScreen mainScreen].bounds.size)\
+||\
+CGSizeEqualToSize(CGSizeMake(896, 414),[UIScreen mainScreen].bounds.size))\
+:\
+NO)
+#define WEAKSELF __weak typeof(self) weakself = self
+
+
+#define imageBarBtnWidth  60
+#define titleBarBtnWidth  66
+#endif /* PrefixHeader_pch */

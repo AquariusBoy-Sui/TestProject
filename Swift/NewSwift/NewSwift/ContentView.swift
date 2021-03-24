@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView{
+            ScrollView(Axis.Set.init(), showsIndicators: true, content: {
+                Text("Hello, world!")
+                    .padding()
+            })
+
+            
+                .navigationBarTitle("仰望星空")
+        }
+        
     }
 }
 
@@ -19,3 +28,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
