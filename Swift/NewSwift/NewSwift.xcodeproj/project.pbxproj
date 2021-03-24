@@ -7,34 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE7476E9260ADD6500C9FDE4 /* NewSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7476D6260ADD6500C9FDE4 /* NewSwiftApp.swift */; };
-		FE7476EA260ADD6500C9FDE4 /* NewSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7476D6260ADD6500C9FDE4 /* NewSwiftApp.swift */; };
-		FE7476EB260ADD6500C9FDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7476D7260ADD6500C9FDE4 /* ContentView.swift */; };
-		FE7476EC260ADD6500C9FDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7476D7260ADD6500C9FDE4 /* ContentView.swift */; };
-		FE7476ED260ADD6500C9FDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7476D8260ADD6500C9FDE4 /* Assets.xcassets */; };
-		FE7476EE260ADD6500C9FDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7476D8260ADD6500C9FDE4 /* Assets.xcassets */; };
+		FE74770D260AE87800C9FDE4 /* NewSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE74770C260AE87800C9FDE4 /* NewSwiftApp.swift */; };
+		FE74770F260AE87800C9FDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE74770E260AE87800C9FDE4 /* ContentView.swift */; };
+		FE747711260AE87800C9FDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE747710260AE87800C9FDE4 /* Assets.xcassets */; };
+		FE747714260AE87800C9FDE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE747713260AE87800C9FDE4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE7476D6260ADD6500C9FDE4 /* NewSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSwiftApp.swift; sourceTree = "<group>"; };
-		FE7476D7260ADD6500C9FDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FE7476D8260ADD6500C9FDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE7476DD260ADD6500C9FDE4 /* NewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE7476E0260ADD6500C9FDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE7476E5260ADD6500C9FDE4 /* NewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE7476E7260ADD6500C9FDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE7476E8260ADD6500C9FDE4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FE747709260AE87800C9FDE4 /* NewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE74770C260AE87800C9FDE4 /* NewSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSwiftApp.swift; sourceTree = "<group>"; };
+		FE74770E260AE87800C9FDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE747710260AE87800C9FDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE747713260AE87800C9FDE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE747715260AE87800C9FDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE7476DA260ADD6500C9FDE4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE7476E2260ADD6500C9FDE4 /* Frameworks */ = {
+		FE747706260AE87800C9FDE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,107 +33,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE7476D0260ADD6500C9FDE4 = {
+		FE747700260AE87800C9FDE4 = {
 			isa = PBXGroup;
 			children = (
-				FE7476D5260ADD6500C9FDE4 /* Shared */,
-				FE7476DF260ADD6500C9FDE4 /* iOS */,
-				FE7476E6260ADD6500C9FDE4 /* macOS */,
-				FE7476DE260ADD6500C9FDE4 /* Products */,
+				FE74770B260AE87800C9FDE4 /* NewSwift */,
+				FE74770A260AE87800C9FDE4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FE7476D5260ADD6500C9FDE4 /* Shared */ = {
+		FE74770A260AE87800C9FDE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE7476D6260ADD6500C9FDE4 /* NewSwiftApp.swift */,
-				FE7476D7260ADD6500C9FDE4 /* ContentView.swift */,
-				FE7476D8260ADD6500C9FDE4 /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		FE7476DE260ADD6500C9FDE4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FE7476DD260ADD6500C9FDE4 /* NewSwift.app */,
-				FE7476E5260ADD6500C9FDE4 /* NewSwift.app */,
+				FE747709260AE87800C9FDE4 /* NewSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE7476DF260ADD6500C9FDE4 /* iOS */ = {
+		FE74770B260AE87800C9FDE4 /* NewSwift */ = {
 			isa = PBXGroup;
 			children = (
-				FE7476E0260ADD6500C9FDE4 /* Info.plist */,
+				FE74770C260AE87800C9FDE4 /* NewSwiftApp.swift */,
+				FE74770E260AE87800C9FDE4 /* ContentView.swift */,
+				FE747710260AE87800C9FDE4 /* Assets.xcassets */,
+				FE747715260AE87800C9FDE4 /* Info.plist */,
+				FE747712260AE87800C9FDE4 /* Preview Content */,
 			);
-			path = iOS;
+			path = NewSwift;
 			sourceTree = "<group>";
 		};
-		FE7476E6260ADD6500C9FDE4 /* macOS */ = {
+		FE747712260AE87800C9FDE4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FE7476E7260ADD6500C9FDE4 /* Info.plist */,
-				FE7476E8260ADD6500C9FDE4 /* macOS.entitlements */,
+				FE747713260AE87800C9FDE4 /* Preview Assets.xcassets */,
 			);
-			path = macOS;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE7476DC260ADD6500C9FDE4 /* NewSwift (iOS) */ = {
+		FE747708260AE87800C9FDE4 /* NewSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE7476F1260ADD6500C9FDE4 /* Build configuration list for PBXNativeTarget "NewSwift (iOS)" */;
+			buildConfigurationList = FE747718260AE87800C9FDE4 /* Build configuration list for PBXNativeTarget "NewSwift" */;
 			buildPhases = (
-				FE7476D9260ADD6500C9FDE4 /* Sources */,
-				FE7476DA260ADD6500C9FDE4 /* Frameworks */,
-				FE7476DB260ADD6500C9FDE4 /* Resources */,
+				FE747705260AE87800C9FDE4 /* Sources */,
+				FE747706260AE87800C9FDE4 /* Frameworks */,
+				FE747707260AE87800C9FDE4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "NewSwift (iOS)";
-			productName = "NewSwift (iOS)";
-			productReference = FE7476DD260ADD6500C9FDE4 /* NewSwift.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FE7476E4260ADD6500C9FDE4 /* NewSwift (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE7476F4260ADD6500C9FDE4 /* Build configuration list for PBXNativeTarget "NewSwift (macOS)" */;
-			buildPhases = (
-				FE7476E1260ADD6500C9FDE4 /* Sources */,
-				FE7476E2260ADD6500C9FDE4 /* Frameworks */,
-				FE7476E3260ADD6500C9FDE4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "NewSwift (macOS)";
-			productName = "NewSwift (macOS)";
-			productReference = FE7476E5260ADD6500C9FDE4 /* NewSwift.app */;
+			name = NewSwift;
+			productName = NewSwift;
+			productReference = FE747709260AE87800C9FDE4 /* NewSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE7476D1260ADD6500C9FDE4 /* Project object */ = {
+		FE747701260AE87800C9FDE4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					FE7476DC260ADD6500C9FDE4 = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					FE7476E4260ADD6500C9FDE4 = {
+					FE747708260AE87800C9FDE4 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = FE7476D4260ADD6500C9FDE4 /* Build configuration list for PBXProject "NewSwift" */;
+			buildConfigurationList = FE747704260AE87800C9FDE4 /* Build configuration list for PBXProject "NewSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,59 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = FE7476D0260ADD6500C9FDE4;
-			productRefGroup = FE7476DE260ADD6500C9FDE4 /* Products */;
+			mainGroup = FE747700260AE87800C9FDE4;
+			productRefGroup = FE74770A260AE87800C9FDE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE7476DC260ADD6500C9FDE4 /* NewSwift (iOS) */,
-				FE7476E4260ADD6500C9FDE4 /* NewSwift (macOS) */,
+				FE747708260AE87800C9FDE4 /* NewSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE7476DB260ADD6500C9FDE4 /* Resources */ = {
+		FE747707260AE87800C9FDE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7476ED260ADD6500C9FDE4 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE7476E3260ADD6500C9FDE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE7476EE260ADD6500C9FDE4 /* Assets.xcassets in Resources */,
+				FE747714260AE87800C9FDE4 /* Preview Assets.xcassets in Resources */,
+				FE747711260AE87800C9FDE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE7476D9260ADD6500C9FDE4 /* Sources */ = {
+		FE747705260AE87800C9FDE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7476EB260ADD6500C9FDE4 /* ContentView.swift in Sources */,
-				FE7476E9260ADD6500C9FDE4 /* NewSwiftApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE7476E1260ADD6500C9FDE4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE7476EC260ADD6500C9FDE4 /* ContentView.swift in Sources */,
-				FE7476EA260ADD6500C9FDE4 /* NewSwiftApp.swift in Sources */,
+				FE74770F260AE87800C9FDE4 /* ContentView.swift in Sources */,
+				FE74770D260AE87800C9FDE4 /* NewSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FE7476EF260ADD6500C9FDE4 /* Debug */ = {
+		FE747716260AE87800C9FDE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,15 +197,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FE7476F0260ADD6500C9FDE4 /* Release */ = {
+		FE747717260AE87800C9FDE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,137 +252,82 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		FE7476F2260ADD6500C9FDE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BFACKCX7XV;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xingkong.NewSwift;
-				PRODUCT_NAME = NewSwift;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FE7476F3260ADD6500C9FDE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BFACKCX7XV;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xingkong.NewSwift;
-				PRODUCT_NAME = NewSwift;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FE7476F5260ADD6500C9FDE4 /* Debug */ = {
+		FE747719260AE87800C9FDE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NewSwift/Preview Content\"";
 				DEVELOPMENT_TEAM = BFACKCX7XV;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = NewSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingkong.NewSwift;
-				PRODUCT_NAME = NewSwift;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FE7476F6260ADD6500C9FDE4 /* Release */ = {
+		FE74771A260AE87800C9FDE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NewSwift/Preview Content\"";
 				DEVELOPMENT_TEAM = BFACKCX7XV;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = NewSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingkong.NewSwift;
-				PRODUCT_NAME = NewSwift;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE7476D4260ADD6500C9FDE4 /* Build configuration list for PBXProject "NewSwift" */ = {
+		FE747704260AE87800C9FDE4 /* Build configuration list for PBXProject "NewSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE7476EF260ADD6500C9FDE4 /* Debug */,
-				FE7476F0260ADD6500C9FDE4 /* Release */,
+				FE747716260AE87800C9FDE4 /* Debug */,
+				FE747717260AE87800C9FDE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE7476F1260ADD6500C9FDE4 /* Build configuration list for PBXNativeTarget "NewSwift (iOS)" */ = {
+		FE747718260AE87800C9FDE4 /* Build configuration list for PBXNativeTarget "NewSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE7476F2260ADD6500C9FDE4 /* Debug */,
-				FE7476F3260ADD6500C9FDE4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE7476F4260ADD6500C9FDE4 /* Build configuration list for PBXNativeTarget "NewSwift (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE7476F5260ADD6500C9FDE4 /* Debug */,
-				FE7476F6260ADD6500C9FDE4 /* Release */,
+				FE747719260AE87800C9FDE4 /* Debug */,
+				FE74771A260AE87800C9FDE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE7476D1260ADD6500C9FDE4 /* Project object */;
+	rootObject = FE747701260AE87800C9FDE4 /* Project object */;
 }
